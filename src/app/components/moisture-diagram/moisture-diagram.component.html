@@ -1,0 +1,15 @@
+<div id="plant-data-diagram">
+  <h2>Plant soil moisture levels</h2>
+  <ngx-charts-line-chart
+    [scheme]="colorScheme"
+    [showXAxisLabel]="true"
+    [showYAxisLabel]="true"
+    [xAxis]="true"
+    [yAxis]="true"
+    xAxisLabel="Timeline"
+    yAxisLabel="Soil moisture"
+    [timeline]="true"
+    [results]="lineChartValues"
+  >
+  </ngx-charts-line-chart>
+</div>
