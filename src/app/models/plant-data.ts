@@ -3,10 +3,6 @@
  */
 export interface PlantData {
   _value: number
-  _field: FieldType
+  _field: string
   _time: string
-}
-
-export enum FieldType {
-  Moisture = 'moisture'
 }
