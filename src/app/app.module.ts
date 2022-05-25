@@ -21,5 +21,9 @@ import {MoistureDiagramComponent} from './components/moisture-diagram/moisture-d
   providers: [],
   bootstrap: [AppComponent]
 })
+
+/**
+ * Class for the configuration of the application.
+ */
 export class AppModule {
 }
